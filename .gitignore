@@ -1,0 +1,19 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+build/
+*.aux
+*.log
+*.out
+*.toc
+
+# OS/editor
+.DS_Store
+.vscode/
+*.swp
+
+# Simulation output (keep processed results, not raw logs, if large)
+sim/**/*.log
+results/raw/*
+!results/raw/.gitkeep
